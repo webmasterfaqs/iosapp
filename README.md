@@ -1,1 +1,1 @@
-# iosapp
+# iosapp for dailyindia.com
