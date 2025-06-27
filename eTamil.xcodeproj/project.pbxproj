@@ -45,11 +45,6 @@
                         path = eTamilUITests;
                         sourceTree = "<group>";
                 };
-                177E8AB294454D8EB7791BDB /* Utilities */ = {
-                        isa = PBXFileSystemSynchronizedRootGroup;
-                        path = Utilities;
-                        sourceTree = "<group>";
-                };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +78,6 @@
                                 B5EA46292E0DF916008105BF /* eTamil */,
                                 B5EA46372E0DF918008105BF /* eTamilTests */,
                                 B5EA46412E0DF918008105BF /* eTamilUITests */,
-                                177E8AB294454D8EB7791BDB /* Utilities */,
                                 B5EA46282E0DF916008105BF /* Products */,
                         );
                         sourceTree = "<group>";
@@ -115,7 +109,6 @@
 			);
                         fileSystemSynchronizedGroups = (
                                 B5EA46292E0DF916008105BF /* eTamil */,
-                                177E8AB294454D8EB7791BDB /* Utilities */,
                         );
 			name = eTamil;
 			packageProductDependencies = (
@@ -139,7 +132,6 @@
 			);
                         fileSystemSynchronizedGroups = (
                                 B5EA46372E0DF918008105BF /* eTamilTests */,
-                                177E8AB294454D8EB7791BDB /* Utilities */,
                         );
 			name = eTamilTests;
 			packageProductDependencies = (
@@ -163,7 +155,6 @@
 			);
                         fileSystemSynchronizedGroups = (
                                 B5EA46412E0DF918008105BF /* eTamilUITests */,
-                                177E8AB294454D8EB7791BDB /* Utilities */,
                         );
 			name = eTamilUITests;
 			packageProductDependencies = (
