@@ -8,25 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var viewModel = HeadlinesViewModel()
-
     var body: some View {
-        NavigationView {
-            List(viewModel.articles, id: \.id) { article in
-                NavigationLink(destination: ArticleDetailView(article: article)) {
-                    Text(article.title)
-                }
-            }
-            .refreshable {
-                await viewModel.fetchHeadlines()
-            }
-            .navigationTitle("Top Headlines")
-        }
-        .onAppear {
-            Task {
-                await viewModel.fetchHeadlines()
-            }
-        }
+        HeadlinesView()
     }
 }
 

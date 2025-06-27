@@ -13,4 +13,8 @@ enum Section: String, CaseIterable, Codable, Identifiable {
     case health = "Health"
     // TODO: Add more sections as needed
     var id: String { rawValue }
+
+    var apiTopic: String {
+        rawValue.lowercased()
+    }
 }
