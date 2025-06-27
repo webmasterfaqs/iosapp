@@ -1,6 +1,7 @@
-yesimport SwiftUI
+import SwiftUI
 import Combine
 
+@MainActor
 class HeadlinesViewModel: ObservableObject {
     @Published var articles: [Article] = []
     @Published var isLoading: Bool = false
