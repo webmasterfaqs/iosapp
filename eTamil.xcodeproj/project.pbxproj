@@ -30,21 +30,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5EA46292E0DF916008105BF /* eTamil */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = eTamil;
-			sourceTree = "<group>";
-		};
-		B5EA46372E0DF918008105BF /* eTamilTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = eTamilTests;
-			sourceTree = "<group>";
-		};
-		B5EA46412E0DF918008105BF /* eTamilUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = eTamilUITests;
-			sourceTree = "<group>";
-		};
+                B5EA46292E0DF916008105BF /* eTamil */ = {
+                        isa = PBXFileSystemSynchronizedRootGroup;
+                        path = eTamil;
+                        sourceTree = "<group>";
+                };
+                B5EA46372E0DF918008105BF /* eTamilTests */ = {
+                        isa = PBXFileSystemSynchronizedRootGroup;
+                        path = eTamilTests;
+                        sourceTree = "<group>";
+                };
+                B5EA46412E0DF918008105BF /* eTamilUITests */ = {
+                        isa = PBXFileSystemSynchronizedRootGroup;
+                        path = eTamilUITests;
+                        sourceTree = "<group>";
+                };
+                177E8AB294454D8EB7791BDB /* Utilities */ = {
+                        isa = PBXFileSystemSynchronizedRootGroup;
+                        path = Utilities;
+                        sourceTree = "<group>";
+                };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,16 +77,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5EA461E2E0DF916008105BF = {
-			isa = PBXGroup;
-			children = (
-				B5EA46292E0DF916008105BF /* eTamil */,
-				B5EA46372E0DF918008105BF /* eTamilTests */,
-				B5EA46412E0DF918008105BF /* eTamilUITests */,
-				B5EA46282E0DF916008105BF /* Products */,
-			);
-			sourceTree = "<group>";
-		};
+                B5EA461E2E0DF916008105BF = {
+                        isa = PBXGroup;
+                        children = (
+                                B5EA46292E0DF916008105BF /* eTamil */,
+                                B5EA46372E0DF918008105BF /* eTamilTests */,
+                                B5EA46412E0DF918008105BF /* eTamilUITests */,
+                                177E8AB294454D8EB7791BDB /* Utilities */,
+                                B5EA46282E0DF916008105BF /* Products */,
+                        );
+                        sourceTree = "<group>";
+                };
 		B5EA46282E0DF916008105BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +113,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B5EA46292E0DF916008105BF /* eTamil */,
-			);
+                        fileSystemSynchronizedGroups = (
+                                B5EA46292E0DF916008105BF /* eTamil */,
+                                177E8AB294454D8EB7791BDB /* Utilities */,
+                        );
 			name = eTamil;
 			packageProductDependencies = (
 			);
@@ -130,9 +137,10 @@
 			dependencies = (
 				B5EA46362E0DF918008105BF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B5EA46372E0DF918008105BF /* eTamilTests */,
-			);
+                        fileSystemSynchronizedGroups = (
+                                B5EA46372E0DF918008105BF /* eTamilTests */,
+                                177E8AB294454D8EB7791BDB /* Utilities */,
+                        );
 			name = eTamilTests;
 			packageProductDependencies = (
 			);
@@ -153,9 +161,10 @@
 			dependencies = (
 				B5EA46402E0DF918008105BF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B5EA46412E0DF918008105BF /* eTamilUITests */,
-			);
+                        fileSystemSynchronizedGroups = (
+                                B5EA46412E0DF918008105BF /* eTamilUITests */,
+                                177E8AB294454D8EB7791BDB /* Utilities */,
+                        );
 			name = eTamilUITests;
 			packageProductDependencies = (
 			);
