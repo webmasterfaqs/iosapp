@@ -12,7 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            List(viewModel.articles, id: \Article.id) { (article: Article) in
+            List(viewModel.articles, id: \.id) { article in
                 NavigationLink(destination: ArticleDetailView(article: article)) {
                     Text(article.title)
                 }
