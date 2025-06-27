@@ -2,7 +2,7 @@ import Foundation
 
 class LiveNewsAPIClient: NewsAPIClient {
     private let baseURL = "https://gnews.io/api/v4/top-headlines"
-    private let apiKey = ProcessInfo.processInfo.environment["GNEWS_API_KEY"] ?? ""
+    private let apiKey = APIKeyProvider.gnewsAPIKey() ?? ""
 
     func fetchTopHeadlines(section: Section, page: Int) async throws -> [Article] {
         guard !apiKey.isEmpty else {
